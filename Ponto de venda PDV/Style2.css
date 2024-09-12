@@ -1,0 +1,167 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.tudo{
+    margin: 1%;
+    justify-content: center;
+}
+
+#cabecalho{
+    background-color: cornflowerblue;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+h1,li{
+    margin: 1%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: none;
+  }
+  
+a:active {
+    text-decoration: none;
+  }
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+}
+
+.prod{
+
+    width: 45%;
+    display: inline;
+    
+
+}
+
+#prodname{
+    width: 94.5%;
+    height: 30px;
+    margin: 1%;
+    border-radius: 3px;
+    border: 1px solid black;
+
+}
+
+
+
+#subb{
+    width: 95%;
+    height: 30px;
+    margin: 1%;
+    background-color: cornflowerblue;
+    border: 0px;
+    border-radius: 3px;
+    
+}
+
+#amount{
+    height: 30px;
+    width: 46%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#unitprice{
+    height: 30px;
+    width: 46%;
+
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#categoria{
+    width: 95%;
+    margin: 1%;
+    height: 30px;
+}
+
+
+.tabela{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    float: right;
+
+}
+
+
+tr,td{
+    border-bottom: 2px solid #96D4D4;
+    border-right: 2px solid #96D4D4;
+}
+
+table{
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+th{
+    border-right: 2px solid #96D4D4;
+}
+
+#grande{
+    width: 40%;
+    height: 30px;
+}
+
+#prodd{
+    width: 20%;
+    height: 50px;
+}
+#amoo{
+    width: 10%;
+    height: 50px;
+}
+#unii{
+    width: fit-content;
+    height: 50px;
+}
+#catt{
+    width: fit-content;
+    height: 50px;
+}
+
+.linha{
+    width: 2px;
+    background-color: #96D4D4;
+    height: auto;
+}
+
+#ladolado{
+    display: flex;
+    gap: 2%;
+}

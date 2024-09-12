@@ -1,0 +1,156 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+    height: auto;
+
+}
+
+.font{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.flex-container1{
+    align-items: center;
+    width: 45%;
+    float: left;
+}
+.flex-container2{
+    flex-direction: column;
+    align-items: stretch;
+
+    width: 45%;
+    height: stretch;
+    float: right;
+    float: top;
+
+}
+#cabecalho{
+    background-color: cornflowerblue;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: none;
+  }
+  
+a:active {
+    text-decoration: none;
+  }
+
+h1,li{
+    margin: 1%;
+}
+
+
+.formm{
+            background-color: brown;
+    display: flex;
+    width: 49%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabela{
+    display: flex;
+    width: 49%;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+}
+
+#linha{
+    background-color: #96D4D4;
+    width: 3px;
+
+}
+
+.tudo{
+    margin: 1%;
+    justify-content: center;
+}
+
+.prod{
+    background-color: yellowgreen;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#CatName{
+    width: 80%;
+    height: 30px;
+    margin: 1%;
+    margin-bottom: 4px;
+    float: right;
+}
+#tax{
+    min-width: 30%;
+    height: 30px;
+    width: 80%;
+    margin: 1%;
+    margin-bottom: 4px;
+    float: right;
+}
+
+#category{
+    width: 81.1%;
+    height: 30px;
+    background-color: cornflowerblue;
+    margin: 1%;
+    border: 0px;
+    border-radius: 3px;
+    float: right;
+}
+
+
+#codd{
+    width: 300px;
+    height: 40px;
+}
+
+#catt{
+    width: 20%;
+}
+
+#taxx{
+    width: 20%;
+}
+
+tr,td{
+    border-bottom: 2px solid #96D4D4;
+    border-right: 2px solid #96D4D4;
+}
+
+table{
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+th{
+    border-right: 2px solid #96D4D4;
+}

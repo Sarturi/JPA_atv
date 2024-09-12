@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style3.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Ponto de Venda - PDV</title>
+</head>
+<body>
+<div class="font">
+    <div id="cabecalho">
+        <h1>Suite Store</h1>
+        <ul>
+        <li><a href="main.html" >Home</a><br></li>
+        <li><a href="Products.html">Products</a><br></li>
+        <li><a href="Categories.html">Categories</a><br></li>
+        <li><a href="History.html">History</a><br></li>
+        </ul>
+        <br>
+    
+    </div>
+
+<div class="tudo">
+    <div class="flex-container1">
+
+        <form>
+            <h2><strong>Categories: </strong></h2>
+            <input type="text" id="CatName" name="CatName"placeholder="Category name: "><br>
+            
+            <input type="number" id="tax" name="tax" placeholder="Tax: "><br>
+            <input onclick="cadastraCategoria()" type="submit" value="Add Category" id="category">
+        </form>
+
+    </div>
+
+<div id="linha"></div>
+
+
+
+<div class="flex-container2">
+    <table>
+        <tr>
+            <th id="codd"><strong>Code</strong></th>
+            <th id="catt"><strong>Category</strong></th>
+            <th id="taxx"><strong>Tax</strong></th>
+        </tr>
+
+    </table>
+</div>
+</div>
+
+</div>
+<script src="arquivo.js"></script>
+
+</body>
+</html>
